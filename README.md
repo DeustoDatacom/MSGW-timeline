@@ -1,4 +1,6 @@
-**Import your locals csv into timeline.js.**
+# timelinejs-local
+
+Allow to use local csv files with tiemlinejs framework.
 
 ## Quick start
 
