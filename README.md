@@ -1,6 +1,6 @@
 # timelinejs-local
 
-Allow to use local csv files with tiemlinejs framework.
+Allow to use local csv files with [timelinejs](https://github.com/NUKnightLab/TimelineJS3) library.
 
 ## Quick start
 
