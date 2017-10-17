@@ -12,6 +12,10 @@ Just copy the compiled folder and modify `timeline-data.csv` with your favorite 
 
 - Hack on the `src` directory
 
+- commit changes:
+
+      git commit
+
 - Copy changes to compiled directory for example with rsync:
 
       rsync -rL src/ compiled
