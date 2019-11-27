@@ -1,5 +1,5 @@
 const options = {
-  language: 'fr',
+  language: 'en',
 };
 //
 // load the data from a local csv
