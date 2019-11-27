@@ -15,7 +15,12 @@ d3.csv('timeline-data-old.csv', (error, data) => {
         // inspired from https://github.com/NUKnightLab/TimelineJS3/blob/master/source/js/core/TL.ConfigFactory.js
     // console.log(itemData);
     const event = {
-      start_date: TL.Date.parseDate(itemData.date),
+      start_date: 
+      {
+        month: itemData.startMonth || '',
+        day: itemData.startDay || '',
+        year: itemData.startYear || '',
+      },
       // displayDate breaks the timeline
       // display_date: item_data.displayDate || '',
       media:
