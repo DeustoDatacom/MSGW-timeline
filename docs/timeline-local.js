@@ -27,6 +27,8 @@ d3.csv('timeline-data.csv', (error, data) => {
         day: itemData.endDay || '',
         year: itemData.endYear || '',
       },
+      // displayDate breaks the timeline
+      // display_date: item_data.displayDate || '',
       media:
       {
         caption: itemData.mediaCaption || '',
@@ -39,7 +41,6 @@ d3.csv('timeline-data.csv', (error, data) => {
         headline: itemData.headline || '',
         text: itemData.text || '',
       },
-      display_date: item_data.displayDate || '',
       background: {
         url: itemData.backgroundUrl || '',
         color: itemData.backgroundColor || '',
