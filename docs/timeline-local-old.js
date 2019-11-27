@@ -21,6 +21,12 @@ d3.csv('timeline-data-old.csv', (error, data) => {
         day: itemData.startDay || '',
         year: itemData.startYear || '',
       },
+      end_date: 
+      {
+        month: itemData.endMonth || '',
+        day: itemData.endDay || '',
+        year: itemData.endYear || '',
+      },
       // displayDate breaks the timeline
       // display_date: item_data.displayDate || '',
       media:
