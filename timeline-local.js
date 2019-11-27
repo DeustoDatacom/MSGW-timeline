@@ -1,5 +1,6 @@
 const options = {
   language: 'en',
+  font: 'Amatic-Andika'
 };
 //
 // load the data from a local csv
