@@ -15,7 +15,18 @@ d3.csv('timeline-data.csv', (error, data) => {
         // inspired from https://github.com/NUKnightLab/TimelineJS3/blob/master/source/js/core/TL.ConfigFactory.js
     // console.log(itemData);
     const event = {
-      start_date: TL.Date.parseDate(itemData.date),
+      start_date: 
+      {
+        month: itemData.startMonth || '',
+        day: itemData.startDay || '',
+        year: itemData.startYear || '',
+      },
+      end_date: 
+      {
+        month: itemData.endMonth || '',
+        day: itemData.endDay || '',
+        year: itemData.endYear || '',
+      },
       media:
       {
         caption: itemData.mediaCaption || '',
@@ -28,6 +39,7 @@ d3.csv('timeline-data.csv', (error, data) => {
         headline: itemData.headline || '',
         text: itemData.text || '',
       },
+      display_date: item_data.displayDate || '',
       background: {
         url: itemData.backgroundUrl || '',
         color: itemData.backgroundColor || '',
