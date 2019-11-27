@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- 1 -->
+    <link title="timeline-styles" rel="stylesheet" href="css/timeline.css">
+    <link title="timeline-styles" rel="stylesheet" href="css/fonts/font.bitter-raleway.css">
+    <!-- 2 -->
+    <script src="js/timeline.js"></script>
+</head>
+<body>
+
+
+  <div id="timeline-embed">
+    <div id="timeline"></div>
+  </div>
+
+      <!-- 3 -->
+<script>
+    $(document).ready(function(){
+        var embed = document.getElementById('timeline-embed');
+        embed.style.height = getComputedStyle(document.body).height;
+        window.timeline = new TL.Timeline('timeline-embed', 'timeline3.json', { hash_bookmark: false});
+        window.addEventListener('resize', function() {
+          var embed = document.getElementById('timeline-embed');
+          embed.style.height = getComputedStyle(document.body).height;
+          timeline.updateDisplay();
+        })
+      });
+  </script>
+
+</body>
+</html>

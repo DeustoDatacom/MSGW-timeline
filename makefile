@@ -1,4 +1,4 @@
 publish:
-	rsync -rL src/ compiled
-	ghp-import compiled/
+	rsync -rL src/ docs
+#	ghp-import compiled/
 	git push --all origin
