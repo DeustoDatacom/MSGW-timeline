@@ -16,7 +16,8 @@ d3.csv('timeline-data-old.csv', (error, data) => {
     // console.log(itemData);
     const event = {
       start_date: TL.Date.parseDate(itemData.date),
-      display_date: item_data.displayDate || '',
+      // displayDate breaks the timeline
+      // display_date: item_data.displayDate || '',
       media:
       {
         caption: itemData.mediaCaption || '',
