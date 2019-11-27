@@ -25,8 +25,8 @@ d3.csv('timeline-data.csv', (error, data) => {
       },
       text:
       {
-        headline: itemData.titre || '',
-        text: itemData.texte || '',
+        headline: itemData.title || '',
+        text: itemData.text || '',
       },
       background: {
         url: itemData.backgroundUrl || '',
