@@ -27,8 +27,8 @@ To create your own timeline for this project deliverable, you will need:
         + A list of the different [media types](https://timeline.knightlab.com/docs/media-types.html) you can use in the `media` column 
     - Save the file, making sure you do so in `.csv` format
 6. Upload to the site by drag and drop: open the corresponding folder in your web browser and drag and drop the csv file from your file explorer; write a descriptive commit message (like "Added pictures to some slides"), make sure ![](commit-master.png) is selected, and click "Commit changes". 
-7. You can embed this timeline anywhere you want by using this embed code (change `group0` with your folder name):
-   `<iframe src="https://deustodatacom.github.io/MSGW-timeline/group0/" style="width:100%;min-height:600px;" frameborder="0"></iframe>`
+7. Create a post on [the subject website](https://msgw.deusto.es/). Write a brief descriptive paragraph and embed this timeline by using this code in a "Custom HTML" block (change `group0` with your folder name):
+   `<iframe src="https://deustodatacom.github.io/MSGW-timeline/group0/" style="width:100%;min-width:920px;min-height:600px;" frameborder="0"></iframe>`
 
 You will find video versions of these instructions in ALUD.
 
