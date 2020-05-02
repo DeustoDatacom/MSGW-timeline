@@ -3,4 +3,5 @@
 
 These are the timelines created for the last team project during Spring 2020:
 
-- Group 0: [Timeline Title](group0) `sample`
+- [Women in computing](women-computing) `sample`
+- Group 0: [Timeline Title](group0) `empty timeline`
