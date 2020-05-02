@@ -1,5 +1,4 @@
-# Web development for journalism
-## Production of Messages for the web
+# MSGW Unit 4: Web development for journalism
 
 These are the timelines created for the last team project during Spring 2020:
 

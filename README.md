@@ -7,7 +7,7 @@ To create your own timeline for this project deliverable, you will need:
 - [A GitHub account](https://github.com/join)
 - A plain text editor. You can try [Sublime Text](https://www.sublimetext.com/3) or [Atom](https://atom.io/) (both are free)
 - A spreadsheet editor (like Microsoft Excel or LibreOffice Calc)
-- The [group0.zip](https://github.com/mberasategi/timelinejs-local/blob/master/group0.zip) file. 
+- The [group0.zip](https://github.com/DeustoDatacom/MSGW-timeline/blob/master/group0.zip) file. 
 
 ## Instructions
 
@@ -17,17 +17,17 @@ To create your own timeline for this project deliverable, you will need:
     - Choose the font pair you want to use and change `default` to the corresponding name, in line 18
       ![Font pairs](timelinejs-fonts-small.png)
     - Save it when you are finished
-3. Upload the whole folder to [the `docs` folder in the GitHub repository](https://github.com/mberasategi/timelinejs-local/tree/master/docs): just drag and drop the folder to the browser window. Write a descriptive commit message (like "First upload of group0 folder", with your group number instead of 0, for example). Make sure ![](commit-master.png) is selected, and click "Commit changes".
-    - Now your timeline, although empty, is uploaded and accesible online through `https://miren.be/timeline-js/group0` (change `0` with your group number or `group0` with your folder name).
+3. Upload the whole folder to [the `docs` folder in the GitHub repository](https://github.com/DeustoDatacom/MSGW-timeline/tree/master/docs): just drag and drop the folder to the browser window. Write a descriptive commit message (like "First upload of group0 folder", with your group number instead of 0, for example). Make sure ![](commit-master.png) is selected, and click "Commit changes".
+    - Now your timeline, although empty, is uploaded and accesible online through `https://deustodatacom.github.io/MSGW-timeline/group0` (change `0` with your group number or `group0` with your folder name).
 4. You create your own timeline by editing the `timeline-data.csv` file in your spreadsheet editor:
     - Open or import the data (depending on your spreadsheet software), making sure you specify character set to `UTF-8`. 
     - Add one line for each event you want to show in your timeline. For more information, see:
-        + The sample timeline about [women in computing](http://miren.be/timelinejs-local/women-computing/), where you can see different slide types in action
+        + The sample timeline about [women in computing](https://deustodatacom.github.io/MSGW-timeline/women-computing/), where you can see different slide types in action
         + A description of what should go in each column in ["Making a timeline from a spreadsheet"](https://timeline.knightlab.com/docs/using-spreadsheets.html), in the official TimelineJS library website  
         + A list of the different [media types](https://timeline.knightlab.com/docs/media-types.html) you can use in the `media` column 
     - Save the file, making sure you do so in `.csv` format
 6. Upload to the site by drag and drop, wait a bit for changes to update
-7. Embed: `<iframe src="http://miren.be/timelinejs-local/group0/" style="width:100%;min-height:600px;" frameborder="0"></iframe>`
+7. Embed: `<iframe src="https://deustodatacom.github.io/MSGW-timeline/group0/" style="width:100%;min-height:600px;" frameborder="0"></iframe>`
 
 ---
 
