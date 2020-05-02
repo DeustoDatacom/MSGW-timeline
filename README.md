@@ -15,7 +15,7 @@ To create your own timeline for this project deliverable, you will need:
 2. Open the `index.html` file from that folder with a plain-text editor (Sublime Text or Atom), and follow the instructions there: 
     - Give a title to your timeline in the `title` tag, in line 7
     - Choose the font pair you want to use and change `default` to the corresponding name, in line 18
-      ![Font pairs](timelinejs-fonts.png)
+      ![Font pairs](timelinejs-fonts-small.png)
     - Save it when you are finished
 3. Upload the whole folder to [the `docs` folder in the GitHub repository](https://github.com/mberasategi/timelinejs-local/tree/master/docs): just drag and drop the folder to the browser window. Write a descriptive commit message (like "First upload of group0 folder", with your group number instead of 0, for example). Make sure ![](commit-master.png) is selected, and click "Commit changes".
     - Now your timeline, although empty, is uploaded and accesible online through `https://miren.be/timeline-js/group0` (change `0` with your group number or `group0` with your folder name).
